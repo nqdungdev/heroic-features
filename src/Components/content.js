@@ -56,27 +56,7 @@ export default class Content extends Component {
     return (
       <section className="pt-4">
         <div className="container px-lg-5">
-          <div className="row gx-lg-5">
-            {this.renderItem()}
-            {/* <div className="col-lg-6 col-xxl-4 mb-5">
-              <Item />
-            </div>
-            <div className="col-lg-6 col-xxl-4 mb-5">
-              <Item />
-            </div>
-            <div className="col-lg-6 col-xxl-4 mb-5">
-              <Item />
-            </div>
-            <div className="col-lg-6 col-xxl-4 mb-5">
-              <Item />
-            </div>
-            <div className="col-lg-6 col-xxl-4 mb-5">
-              <Item />
-            </div>
-            <div className="col-lg-6 col-xxl-4 mb-5">
-              <Item />
-            </div> */}
-          </div>
+          <div className="row gx-lg-5">{this.renderItem()}</div>
         </div>
       </section>
     );
