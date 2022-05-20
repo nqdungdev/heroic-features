@@ -16,7 +16,7 @@ export default class Content extends Component {
       icon: "bi bi-cloud-download",
       title: "Free to download",
       describe:
-        "As always, Start Bootstrap has a powerful collectin of free templates.",
+        "As always, Start Bootstrap has a powerful collection of free templates.",
     },
     {
       id: 3,
